@@ -1,0 +1,51 @@
+@import url(../styles/intro.css);
+@import url(../styles/about-us.css);
+@import url(../styles/project.css);
+@import url(../styles/service.css);
+@import url(../styles/reviews.css);
+
+
+body {
+
+    font-weight: 400;
+    font-family: 'Manrope';
+    background: #FFFFFF;
+}
+
+p, div, a, h1, h2, h3 {
+
+    letter-spacing: -0.03em;
+    color: #121212;
+    text-align: left;
+}
+
+.container {
+
+    margin: 0 auto;
+    width: 1150px;
+    /* padding: 0 125px; */
+}
+
+/* Планшет */
+
+@media (max-width: 1199px) {
+
+    .container {
+
+        width: 100%;
+        padding: 0 15px 0 17px;
+
+    }
+}
+
+/* Мобильное устройство */   
+
+@media (max-width: 767px) {
+
+    .container {
+
+        padding: 0 12px 0 13px;
+
+    }
+}
+
