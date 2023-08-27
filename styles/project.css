@@ -8,8 +8,6 @@
 
     width: 79px;
     height: 25px;
-    font-size: 18px;
-    line-height: 24.59px;
 }
 
 .projects__list {
@@ -60,7 +58,7 @@
     margin-top: 90px;
     display: block;
     width: 100%;
-    height: 153px;
+    /* height: 153px; */
     border: 1px solid #AD1818;
     border-radius: 5px;
 
@@ -132,8 +130,6 @@
         
             width: 62px;
             height: 19px;
-            font-size: 14px;
-            line-height: 19.12px;
         }
         
         .projects__list {
@@ -174,7 +170,7 @@
                 
             margin-top: 60px;
             width: 100%;
-            height: 100px;
+            /* height: 100px; */
             border-radius: 4px;
         
             padding-top: 37px;

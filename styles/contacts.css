@@ -1,0 +1,151 @@
+.contacts {
+
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
+.contacts__title {
+
+    margin-bottom: 74px;
+    width: 90px;
+}
+
+.contacts__wrapper {
+
+    display: flex;
+    position: relative;
+    gap: 104px;
+}
+
+.contacts__phone,
+.contacts__email {
+
+    font-size: 60px;
+    width: 472px;
+    line-height: 60px;
+    text-decoration: none;
+}
+
+.contacts__phone:hover,
+.contacts__email:hover {
+
+    opacity: 0.5;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.5);
+}
+
+.contacts__phone:before,
+.contacts__email:before {
+
+    position: absolute;
+    bottom: 86px;
+    content:'';
+    display: block;
+    width: 24px;
+    height: 24px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 50%;
+
+}
+
+.contacts__phone:before {
+
+    background-image: url('../resources/ic_iphone.png');
+
+}
+
+.contacts__email:before {
+
+    background-image: url('../resources/ic_email.png');
+    left: 580px;
+}
+
+ /* Планшет */
+
+ @media (max-width: 1199px) {
+
+    .contacts {
+
+        padding-top: 120px;
+        padding-bottom: 80px;
+    }
+
+    .contacts__title {
+
+        margin-bottom: 74px;
+    }
+
+    .contacts__wrapper {
+
+        gap: 50px;
+    }
+
+    .contacts__phone,
+    .contacts__email {
+
+        font-size: 45px;
+        width: 354px;
+    }
+
+    .contacts__phone:before,
+    .contacts__email:before  {
+
+        bottom: 75px;
+    }
+
+    .contacts__email:before {
+
+       left: 410px;
+    }
+
+}
+
+
+/* Мобильное устройство */
+
+@media (max-width: 767px) {
+
+    .contacts {
+
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+
+    .contacts__title {
+
+        margin-bottom: 58px;
+        width: 100%;
+    }
+
+    .contacts__wrapper {
+
+        flex-direction: column;
+        gap: 58px;
+    }
+
+    .contacts__phone,
+    .contacts__email {
+
+        font-size: 35px;
+        width: 276px;
+        line-height: 45.62px;
+    }
+
+    .contacts__phone:before,
+    .contacts__email:before {
+
+        width: 18px;
+        height: 18px;
+    }
+
+    .contacts__phone:before {
+
+        top: -20px;
+    }
+
+    .contacts__email:before {
+
+        bottom: 66px;
+        left: 0;
+    }
+}

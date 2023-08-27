@@ -7,8 +7,6 @@
 .reviews__title-main {
 
     padding-left: 2px;
-    font-size: 18px;
-    line-height: 24.59px;
 }
 
 .review__title {
@@ -87,13 +85,7 @@
         padding-top: 78px;
         padding-bottom: 80px;
     }
-    
-    .reviews__title-main {
-    
-        font-size: 14px;
-        line-height: 19.12px;
-    }
-    
+     
     .review__title {
     
         font-size: 25px;
