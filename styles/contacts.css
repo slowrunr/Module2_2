@@ -1,6 +1,6 @@
 .contacts {
 
-    padding-top: 150px;
+    padding-top: 149px;
     padding-bottom: 150px;
 }
 
@@ -13,17 +13,28 @@
 .contacts__wrapper {
 
     display: flex;
-    position: relative;
     gap: 104px;
+    position: relative;
 }
 
 .contacts__phone,
 .contacts__email {
 
-    font-size: 60px;
-    width: 472px;
+    font-size: 62px;
+    border-bottom: 3px solid transparent;
     line-height: 60px;
     text-decoration: none;
+    height: 60px;
+}
+
+.contacts__phone {
+
+    width: 480px;
+}
+
+.contacts__email {
+
+    width: 412px;
 }
 
 .contacts__phone:hover,
@@ -33,8 +44,9 @@
     border-bottom: 2px solid rgba(0, 0, 0, 0.5);
 }
 
+
 .contacts__phone:before,
-.contacts__email:before {
+.contacts__email:before{
 
     position: absolute;
     bottom: 86px;
@@ -50,14 +62,13 @@
 
 .contacts__phone:before {
 
-    background-image: url('../resources/ic_iphone.png');
-
+    background: url(../resources/ic_iphone.png);
+    left: -4px;
 }
 
 .contacts__email:before {
 
-    background-image: url('../resources/ic_email.png');
-    left: 580px;
+    background: url(../resources/ic_email.png);
 }
 
  /* Планшет */
@@ -67,39 +78,31 @@
     .contacts {
 
         padding-top: 120px;
-        padding-bottom: 80px;
+        padding-bottom: 81px;
     }
-
-    .contacts__title {
-
-        margin-bottom: 74px;
-    }
-
+        
     .contacts__wrapper {
-
-        gap: 50px;
+    
+        gap: 114px;
     }
-
+    
     .contacts__phone,
     .contacts__email {
-
-        font-size: 45px;
+    
+        font-size: 40px;
+        line-height: 60px;
+    }
+    
+    .contacts__phone {
+    
         width: 354px;
     }
-
-    .contacts__phone:before,
-    .contacts__email:before  {
-
-        bottom: 75px;
-    }
-
-    .contacts__email:before {
-
-       left: 410px;
-    }
-
+    
+    .contacts__email {
+    
+        width: 309px;
+    }  
 }
-
 
 /* Мобильное устройство */
 
@@ -108,44 +111,57 @@
     .contacts {
 
         padding-top: 80px;
-        padding-bottom: 80px;
+        padding-bottom: 62px;
     }
-
+    
     .contacts__title {
-
+    
         margin-bottom: 58px;
-        width: 100%;
+        width: 70px;
     }
-
+    
     .contacts__wrapper {
-
+    
+        display: flex;
         flex-direction: column;
-        gap: 58px;
+        gap: 46px;
     }
-
+    
     .contacts__phone,
     .contacts__email {
-
+    
         font-size: 35px;
-        width: 276px;
         line-height: 45.62px;
     }
+    
+    .contacts__phone{
+    
+        width: 276px;
+    }
 
+    .contacts__email{
+    
+        width: 240px;
+    }
+ 
     .contacts__phone:before,
-    .contacts__email:before {
-
+    .contacts__email:before{
+    
+        display: inline;
         width: 18px;
         height: 18px;
     }
-
+    
     .contacts__phone:before {
-
-        top: -20px;
+    
+        background: url(../resources/ic_phone_mobile.png);
+        top: -37px;
     }
-
+    
     .contacts__email:before {
-
-        bottom: 66px;
-        left: 0;
+    
+        background: url(../resources/ic_email_mobile.png);
+        top: 65px;
     }
+
 }

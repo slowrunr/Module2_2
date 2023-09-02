@@ -1,0 +1,138 @@
+.service__popup {
+
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.4);
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.4s ease;
+}
+
+.service__popup_open {
+
+    opacity: 1;
+    visibility: visible;
+}
+
+.service__popup-content {
+
+    position: relative;
+    padding: 94px 79px 86px 55px;
+    width: 777px;
+    max-height: 100%;
+    overflow-Y: auto;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.service__popup_close {
+
+    position: absolute;
+    top: 42px;
+    right: 44px;
+    width: 30px;
+    height: 30px;
+    background-image: url("../resources/popup_cross.png");
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+.popup__title {
+
+    font-size: 45px;
+    line-height: 61.47px;
+    text-align: center;
+}
+
+.popup__desc {
+
+    padding-top: 4px;
+    padding-bottom: 10px;
+    font-size: 18px;
+    line-height: 24.59px;
+    text-align: center;
+}
+
+.popup__info {
+
+    margin-top: 50px;
+    padding-bottom: 10px;
+    display: block;
+    border: none;
+    border-bottom: 1px solid grey;
+    width: 100%;
+    font-size: 25px;
+    line-height: 34.15px;
+}
+
+.popup__info:focus {
+
+    outline: none;
+}
+
+.popup__info::placeholder{
+
+    color: #000000;
+    opacity: 0.5;
+}
+
+ /* Планшет */
+
+ @media (max-width: 1199px) {
+
+    .service__popup_close {
+    
+        top: 32px;
+    }
+}
+
+
+/* Мобильное устройство */
+
+@media (max-width: 767px) {
+
+
+    .service__popup-content {
+    
+        position: relative;
+        padding: 80px 24px 80px 16px;
+        width: 361px;
+        height: 611px;
+    }
+    
+    .service__popup_close {
+    
+        top: 40px;
+        right: 29px;
+    }
+    
+    .popup__title {
+    
+        font-size: 25px;
+        line-height: 34.15px;
+    }
+    
+    .popup__desc {
+    
+        padding-top: 11px;
+        padding-bottom: 30px;
+        font-size: 14px;
+        line-height: 19.12px;
+    }
+    
+    .popup__info {
+
+        margin-top: 40px;
+        font-size: 18px;
+        line-height: 24.59px;
+    }
+    
+}

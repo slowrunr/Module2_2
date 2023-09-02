@@ -7,7 +7,16 @@
 @import url(../styles/contacts.css);
 @import url(../styles/footer.css);
 @import url(../styles/headlines.css);
+@import url(../styles/pop-up.css);
+@import url(../styles/header.css);
+@import url(../styles/burger.css);
+@import url(../styles/buttons.css);
 
+
+html{
+
+    scroll-behavior: smooth;
+}
 
 body {
 
@@ -16,18 +25,23 @@ body {
     background: #FFFFFF;
 }
 
-p, div, a, h1, h2, h3 {
+.body_fixed {
+
+    overflow: hidden;
+}
+
+p, div, a, h1, h2, h3, button {
 
     letter-spacing: -0.03em;
     color: #121212;
     text-align: left;
+    font-family: 'Manrope';
 }
 
 .container {
 
     margin: 0 auto;
     width: 1150px;
-    /* padding: 0 125px; */
 }
 
 /* Планшет */
@@ -37,8 +51,7 @@ p, div, a, h1, h2, h3 {
     .container {
 
         width: 100%;
-        padding: 0 15px 0 17px;
-
+        padding: 0 15px 0 15px;
     }
 }
 
@@ -49,7 +62,6 @@ p, div, a, h1, h2, h3 {
     .container {
 
         padding: 0 12px 0 13px;
-
     }
 }
 

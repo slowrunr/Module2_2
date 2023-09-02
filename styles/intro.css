@@ -1,12 +1,12 @@
 .intro-inner {
 
     /* Отступ секции сверху */
-    padding-top: 128px;
+    padding-top: 70px;
 }
 
 .intro-inner__title {
 
-    height: 120px;
+    height: 121px;
     width: 956px;
     font-size: 60px;
     line-height: 60px;
@@ -15,7 +15,7 @@
 .intro-inner__picture {
 
     /* Отступ картинки от текста */
-    margin-top: 30px;
+    margin-top: 31px;
     position: relative;
     width: 1150px;
     height: 500px;
@@ -68,21 +68,21 @@
     .intro-inner {
 
         /* Отступ секции сверху */
-        padding-top: 108px;
+        padding-top: 56px;
     }
 
     .intro-inner__title {
 
         height: 95px;
         width: 348px;
-        font-size: 30px;
-        line-height: 31.62px;
+        font-size: 31px;
+        line-height: 33px;
     }
 
     .intro-inner__picture {
 
         /* Отступ картинки от текста */
-        margin-top: 25px;
+        margin-top: 28px;
         width: 100%;
         height: 304px;
         background-image: url('../resources/Main_banner_mobile.png');
