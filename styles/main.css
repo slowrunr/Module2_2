@@ -12,56 +12,51 @@
 @import url(../styles/burger.css);
 @import url(../styles/buttons.css);
 
-
-html{
-
-    scroll-behavior: smooth;
+html {
+  scroll-behavior: smooth;
 }
 
 body {
-
-    font-weight: 400;
-    font-family: 'Manrope';
-    background: #FFFFFF;
+  font-weight: 400;
+  font-family: "Manrope";
+  background: #ffffff;
 }
 
 .body_fixed {
-
-    overflow: hidden;
+  overflow: hidden;
 }
 
-p, div, a, h1, h2, h3, button {
-
-    letter-spacing: -0.03em;
-    color: #121212;
-    text-align: left;
-    font-family: 'Manrope';
+p,
+div,
+a,
+h1,
+h2,
+h3,
+button {
+  letter-spacing: -0.03em;
+  color: #121212;
+  text-align: left;
+  font-family: "Manrope";
 }
 
 .container {
-
-    margin: 0 auto;
-    width: 1150px;
+  margin: 0 auto;
+  width: 1150px;
 }
 
 /* Планшет */
 
 @media (max-width: 1199px) {
-
-    .container {
-
-        width: 100%;
-        padding: 0 15px 0 15px;
-    }
+  .container {
+    width: 100%;
+    padding: 0 15px 0 15px;
+  }
 }
 
-/* Мобильное устройство */   
+/* Мобильное устройство */
 
 @media (max-width: 767px) {
-
-    .container {
-
-        padding: 0 12px 0 13px;
-    }
+  .container {
+    padding: 0 12px 0 13px;
+  }
 }
-

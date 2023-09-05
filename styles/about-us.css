@@ -1,106 +1,92 @@
 .about-us {
   /* Отступ секции сверху */
-    padding-top: 150px;
+  padding-top: 150px;
 }
 
 .about-us__title {
-
-    width: 51px;
-    height: 25px;
+  width: 51px;
+  height: 25px;
 }
 
 .about-us__text {
-
-    margin-top: 30px;
-    width: 1048px;
-    height: 366px;
-    font-size: 45px;
-    line-height: 61.47px;
+  margin-top: 30px;
+  width: 1048px;
+  height: 366px;
+  font-size: 45px;
+  line-height: 61.47px;
 }
 
 .about-us__link {
+  margin-top: 27px;
+  display: block;
+  width: 255px;
+  border: 1px solid #ad1818;
+  background-color: #ad1818;
+  border-radius: 5px;
 
-    margin-top: 27px;
-    display: block;
-    width: 255px;
-    border: 1px solid #AD1818;
-    background-color: #AD1818;
-    border-radius: 5px;
-
-    padding: 20px;
-    font-size: 20px;
-    line-height: 27.32px;
-    text-decoration: none;
-    color: #ffffff;
-    text-align: center;
+  padding: 20px;
+  font-size: 20px;
+  line-height: 27.32px;
+  text-decoration: none;
+  color: #ffffff;
+  text-align: center;
 }
 
 .about-us__link:hover {
-
-    color:  #AD1818;
-    background-color: #ffffff;
+  color: #ad1818;
+  background-color: #ffffff;
 }
 
- /* Планшет */
+/* Планшет */
 
- @media (max-width: 1199px) {
+@media (max-width: 1199px) {
+  .about-us {
+    /* Отступ секции сверху */
+    padding-top: 120px;
+  }
 
-    .about-us {
-        /* Отступ секции сверху */
-        padding-top: 120px;
-      }
+  .about-us__text {
+    width: 690px;
+    height: 336px;
+    font-size: 35px;
+    line-height: 47.81px;
+    padding-left: 3px;
+  }
 
-      .about-us__text {
+  .about-us__link {
+    margin-top: 32px;
+    padding: 19px;
+  }
+}
 
-        width: 690px;
-        height: 336px;
-        font-size: 35px;
-        line-height: 47.81px;
-        padding-left: 3px;
-    }
-
-    .about-us__link {
-
-        margin-top: 32px;
-        padding: 19px;
-
-    }
-
- }
-
- /* Мобильное устройство */   
+/* Мобильное устройство */
 
 @media (max-width: 767px) {
+  .about-us {
+    /* Отступ секции сверху */
+    padding-top: 80px;
+  }
 
-    .about-us {
-        /* Отступ секции сверху */
-        padding-top: 80px;
-      }
+  .about-us__title {
+    width: 40px;
+    height: 19px;
+  }
 
-    .about-us__title {
+  .about-us__text {
+    margin-top: 20px;
+    width: 346px;
+    height: 300px;
+    font-size: 22px;
+    line-height: 30.05px;
+  }
 
-        width: 40px;
-        height: 19px;
-    }
+  .about-us__link {
+    width: 194px;
+    border-radius: 4px;
+    margin-top: 28px;
 
-    .about-us__text {
-
-        margin-top: 20px;
-        width: 346px;
-        height: 300px;
-        font-size: 22px;
-        line-height: 30.05px;
-    }
-
-    .about-us__link {
-
-        width: 194px;
-        border-radius: 4px;
-        margin-top: 28px;
-    
-        padding: 15px;
-        font-size: 16px;
-        line-height: 21.86px;
-    }
-
+    padding: 15px;
+    font-size: 16px;
+    line-height: 21.86px;
+  }
 }

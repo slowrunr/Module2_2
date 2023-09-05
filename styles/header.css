@@ -1,65 +1,53 @@
 /*  ШАПКА САЙТА */
 
 .header__inner {
-
-    padding-top: 32px;
-    position: relative;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  padding-top: 32px;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .header__nav {
-
-    display: flex;
-    gap: 60px;
+  display: flex;
+  gap: 60px;
 }
 
 .nav__link {
-
-    display: block;
-    height: 27px;
-    text-decoration: none;
-    font-size: 18px;
-    line-height: 24.59px;
+  display: block;
+  height: 27px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 24.59px;
 }
 
 .header__nav a:hover {
-
-    opacity: 0.5;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+  opacity: 0.5;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
 }
 
 .header__logo-img {
-
-    width: 126.89px;
-    height: 21.42px;
+  width: 126.89px;
+  height: 21.42px;
 }
 
+/* Планшет */
 
-  /* Планшет */
-
-  @media (max-width: 1199px) {
-
-    .header__nav {
-
-        display:none;
-    }
+@media (max-width: 1199px) {
+  .header__nav {
+    display: none;
+  }
 }
 
-/* Мобильное устройство */   
+/* Мобильное устройство */
 
 @media (max-width: 767px) {
+  .header__inner {
+    padding-top: 31px;
+  }
 
-    .header__inner {
-
-        padding-top: 31px;
-    }
-
-    .header__logo-img {
-
-        width: 96px;
-        height: 16px;
-    }
-    
+  .header__logo-img {
+    width: 96px;
+    height: 16px;
+  }
 }

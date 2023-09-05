@@ -3,23 +3,19 @@
 .services__title-main,
 .reviews__title-main,
 .contacts__title {
-
-    font-size: 18px;
-    line-height: 24.59px;
+  font-size: 18px;
+  line-height: 24.59px;
 }
 
- /* Мобильное устройство */
+/* Мобильное устройство */
 
- @media (max-width: 767px) {
-
-.about-us__title,
-.projects__title-main,
-.services__title-main,
-.reviews__title-main,
-.contacts__title {
-
+@media (max-width: 767px) {
+  .about-us__title,
+  .projects__title-main,
+  .services__title-main,
+  .reviews__title-main,
+  .contacts__title {
     font-size: 14px;
     line-height: 19.12px;
+  }
 }
-
- }

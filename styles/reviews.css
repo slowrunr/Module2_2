@@ -1,119 +1,99 @@
 .reviews {
-
-    padding-top: 148px;
-    padding-bottom: 157px;
+  padding-top: 148px;
+  padding-bottom: 157px;
 }
 
 .reviews__title-main {
-
-    padding-left: 2px;
+  padding-left: 2px;
 }
 
 .review__title {
-
-    font-size: 45px;
-    line-height: 61.47px;
+  font-size: 45px;
+  line-height: 61.47px;
 }
 
 .review__desc {
-
-    margin-top: 14px;
-    font-size: 22px;
-    line-height: 30.05px;
+  margin-top: 14px;
+  font-size: 22px;
+  line-height: 30.05px;
 }
 
 .reviews__list {
-/*отступ сета блоков сверху*/
-    margin-top: 30px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    row-gap: 110px;
+  /*отступ сета блоков сверху*/
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  row-gap: 110px;
 }
 
 .review {
-
-    width: calc(50% - 6px);
+  width: calc(50% - 6px);
 }
 
-.review:last-child:nth-child(2n+1) {
-
-    width: 75%;
+.review:last-child:nth-child(2n + 1) {
+  width: 75%;
 }
 
- /* Планшет */
+/* Планшет */
 
 @media (max-width: 1199px) {
+  .reviews {
+    padding-top: 117px;
+    padding-bottom: 115px;
+  }
 
-    .reviews {
+  .review__title {
+    font-size: 35px;
+    line-height: 47.81px;
+  }
 
-        padding-top: 117px;
-        padding-bottom: 115px;
-    }
-    
-    .review__title {
-    
-        font-size: 35px;
-        line-height: 47.81px;
-    }
-    
-    .review__desc {
-    
-        margin-top: 25px;
-        font-size: 20px;
-        line-height: 27.32px;
-    }
-    
-    .reviews__list {
+  .review__desc {
+    margin-top: 25px;
+    font-size: 20px;
+    line-height: 27.32px;
+  }
 
-        row-gap: 77px;
-    }
-    
-    .review {
-    
-        width: calc(50% - 5px);
-    }
-    
+  .reviews__list {
+    row-gap: 77px;
+  }
+
+  .review {
+    width: calc(50% - 5px);
+  }
 }
 
- /* Мобильное устройство */
+/* Мобильное устройство */
 
- @media (max-width: 767px) {
+@media (max-width: 767px) {
+  .reviews {
+    padding-top: 78px;
+    padding-bottom: 79px;
+  }
 
-    .reviews {
+  .review__title {
+    font-size: 25px;
+    line-height: 34.15px;
+  }
 
-        padding-top: 78px;
-        padding-bottom: 79px;
-    }
-     
-    .review__title {
-    
-        font-size: 25px;
-        line-height: 34.15px;
-    }
-    
-    .review__desc {
-    
-        margin-top: 13px;
-        font-size: 16px;
-        line-height: 21.86px;
-    }
-    
-    .reviews__list {
+  .review__desc {
+    margin-top: 13px;
+    font-size: 16px;
+    line-height: 21.86px;
+  }
+
+  .reviews__list {
     /*отступ сета блоков сверху*/
-        margin-top: 22px;
-        flex-direction: column;
-        column-gap: 80px;
-    }
-    
-    .review {
-    
-        width: 100%;
-    }
+    margin-top: 22px;
+    flex-direction: column;
+    column-gap: 80px;
+  }
 
-    .review:last-child:nth-child(2n+1) {
+  .review {
+    width: 100%;
+  }
 
-        width: 100%;
-    }
-    
- }
+  .review:last-child:nth-child(2n + 1) {
+    width: 100%;
+  }
+}

@@ -1,167 +1,138 @@
 .contacts {
-
-    padding-top: 149px;
-    padding-bottom: 150px;
+  padding-top: 149px;
+  padding-bottom: 150px;
 }
 
 .contacts__title {
-
-    margin-bottom: 74px;
-    width: 90px;
+  margin-bottom: 74px;
+  width: 90px;
 }
 
 .contacts__wrapper {
-
-    display: flex;
-    gap: 104px;
-    position: relative;
+  display: flex;
+  gap: 104px;
+  position: relative;
 }
 
 .contacts__phone,
 .contacts__email {
-
-    font-size: 62px;
-    border-bottom: 3px solid transparent;
-    line-height: 60px;
-    text-decoration: none;
-    height: 60px;
+  font-size: 62px;
+  border-bottom: 3px solid transparent;
+  line-height: 60px;
+  text-decoration: none;
+  height: 60px;
 }
 
 .contacts__phone {
-
-    width: 480px;
+  width: 480px;
 }
 
 .contacts__email {
-
-    width: 412px;
+  width: 412px;
 }
 
 .contacts__phone:hover,
 .contacts__email:hover {
-
-    opacity: 0.5;
-    border-bottom: 2px solid rgba(0, 0, 0, 0.5);
+  opacity: 0.5;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.5);
 }
 
-
 .contacts__phone:before,
-.contacts__email:before{
-
-    position: absolute;
-    bottom: 86px;
-    content:'';
-    display: block;
-    width: 24px;
-    height: 24px;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: 50%;
-
+.contacts__email:before {
+  position: absolute;
+  bottom: 86px;
+  content: "";
+  display: block;
+  width: 24px;
+  height: 24px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 50%;
 }
 
 .contacts__phone:before {
-
-    background: url(../resources/ic_iphone.png);
-    left: -4px;
+  background: url(../resources/ic_iphone.png);
+  left: -4px;
 }
 
 .contacts__email:before {
-
-    background: url(../resources/ic_email.png);
+  background: url(../resources/ic_email.png);
 }
 
- /* Планшет */
+/* Планшет */
 
- @media (max-width: 1199px) {
+@media (max-width: 1199px) {
+  .contacts {
+    padding-top: 120px;
+    padding-bottom: 81px;
+  }
 
-    .contacts {
+  .contacts__wrapper {
+    gap: 114px;
+  }
 
-        padding-top: 120px;
-        padding-bottom: 81px;
-    }
-        
-    .contacts__wrapper {
-    
-        gap: 114px;
-    }
-    
-    .contacts__phone,
-    .contacts__email {
-    
-        font-size: 40px;
-        line-height: 60px;
-    }
-    
-    .contacts__phone {
-    
-        width: 354px;
-    }
-    
-    .contacts__email {
-    
-        width: 309px;
-    }  
+  .contacts__phone,
+  .contacts__email {
+    font-size: 40px;
+    line-height: 60px;
+  }
+
+  .contacts__phone {
+    width: 354px;
+  }
+
+  .contacts__email {
+    width: 309px;
+  }
 }
 
 /* Мобильное устройство */
 
 @media (max-width: 767px) {
+  .contacts {
+    padding-top: 80px;
+    padding-bottom: 62px;
+  }
 
-    .contacts {
+  .contacts__title {
+    margin-bottom: 58px;
+    width: 70px;
+  }
 
-        padding-top: 80px;
-        padding-bottom: 62px;
-    }
-    
-    .contacts__title {
-    
-        margin-bottom: 58px;
-        width: 70px;
-    }
-    
-    .contacts__wrapper {
-    
-        display: flex;
-        flex-direction: column;
-        gap: 46px;
-    }
-    
-    .contacts__phone,
-    .contacts__email {
-    
-        font-size: 35px;
-        line-height: 45.62px;
-    }
-    
-    .contacts__phone{
-    
-        width: 276px;
-    }
+  .contacts__wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 46px;
+  }
 
-    .contacts__email{
-    
-        width: 240px;
-    }
- 
-    .contacts__phone:before,
-    .contacts__email:before{
-    
-        display: inline;
-        width: 18px;
-        height: 18px;
-    }
-    
-    .contacts__phone:before {
-    
-        background: url(../resources/ic_phone_mobile.png);
-        top: -37px;
-    }
-    
-    .contacts__email:before {
-    
-        background: url(../resources/ic_email_mobile.png);
-        top: 65px;
-    }
+  .contacts__phone,
+  .contacts__email {
+    font-size: 35px;
+    line-height: 45.62px;
+  }
 
+  .contacts__phone {
+    width: 276px;
+  }
+
+  .contacts__email {
+    width: 240px;
+  }
+
+  .contacts__phone:before,
+  .contacts__email:before {
+    display: inline;
+    width: 18px;
+    height: 18px;
+  }
+
+  .contacts__phone:before {
+    background: url(../resources/ic_phone_mobile.png);
+    top: -37px;
+  }
+
+  .contacts__email:before {
+    background: url(../resources/ic_email_mobile.png);
+    top: 65px;
+  }
 }

@@ -1,138 +1,117 @@
 .projects {
-/* Отступ секции сверху */
-    padding-top: 153px;
-    padding-bottom: 150px;
+  /* Отступ секции сверху */
+  padding-top: 153px;
+  padding-bottom: 150px;
 }
 
 .projects__title-main {
-
-    width: 79px;
-    height: 25px;
+  width: 79px;
+  height: 25px;
 }
 
 .projects__list {
-
- /* Отступ сета блоков сверху */
-     margin-top: 28px;
+  /* Отступ сета блоков сверху */
+  margin-top: 28px;
 }
 
 .project {
-
-   /* Отступ между блоками */  
-   margin-top: 90px;
+  /* Отступ между блоками */
+  margin-top: 90px;
 }
 
 .project:first-child {
-
-    margin-top: 0px;
+  margin-top: 0px;
 }
 
 .project__image {
-
-    width: 1150px;
-    height: 450px;
+  width: 1150px;
+  height: 450px;
 }
 
 .project__title {
-
-    margin-top: 13px;
-    margin-bottom: 13px;
-    width: 100%;
-    font-size: 30px;
-    line-height: 40.98px;
-
+  margin-top: 13px;
+  margin-bottom: 13px;
+  width: 100%;
+  font-size: 30px;
+  line-height: 40.98px;
 }
 
 .project__link {
-
-    width: 127px;
-    height: 27px;
-    font-size: 20px;
-    line-height: 27.32px;
-    color: #AD1818;
-    text-decoration: none;
+  width: 127px;
+  height: 27px;
+  font-size: 20px;
+  line-height: 27.32px;
+  color: #ad1818;
+  text-decoration: none;
 }
-   
+
 /* Планшет */
 
 @media (max-width: 1199px) {
+  .projects {
+    /* Отступ секции сверху */
+    padding-top: 121px;
+    padding-bottom: 103px;
+  }
 
-    .projects {
-        /* Отступ секции сверху */
-            padding-top: 121px;
-            padding-bottom: 103px;
-        }
-         
-        .project {
-        
-           /* Отступ между блоками */  
-           margin-top: 79px;
-        }
-        
-        .project__image {
-        
-            width: 100%;
-            height: 450px;
-        }
-        
-        .project__title {
-        
-            margin-top: 15px;
-            margin-bottom: 9px;
-            font-size: 25px;
-            line-height: 34.15px;
-        }
+  .project {
+    /* Отступ между блоками */
+    margin-top: 79px;
+  }
 
+  .project__image {
+    width: 100%;
+    height: 450px;
+  }
+
+  .project__title {
+    margin-top: 15px;
+    margin-bottom: 9px;
+    font-size: 25px;
+    line-height: 34.15px;
+  }
 }
 
-/* Мобильное устройство */   
+/* Мобильное устройство */
 
 @media (max-width: 767px) {
+  .projects {
+    /* Отступ секции сверху */
+    padding-top: 80px;
+    padding-bottom: 144px;
+  }
 
-    .projects {
-        /* Отступ секции сверху */
-            padding-top: 80px;
-            padding-bottom: 144px;
-        }
-        
-        .projects__title-main {
-        
-            width: 62px;
-            height: 19px;
-        }
-        
-        .projects__list {
-        
-         /* Отступ сета блоков сверху */
-             margin-top: 20px;
-        }
-        
-        .project {
-        
-           /* Отступ между блоками */  
-           margin-top: 49px;
-        }
-        
-        .project__image {
-        
-            width: 100%;
-            height: 250px;
-        }
-        
-        .project__title {
-        
-            margin-top: 20px;
-            font-size: 18px;
-            line-height: 24.59px;
-        }
-        
-        .project__link {
-        
-            margin-top: 11px;
-            width: 101px;
-            height: 22px;
-            font-size: 16px;
-            line-height: 21.86px;
-        }
+  .projects__title-main {
+    width: 62px;
+    height: 19px;
+  }
+
+  .projects__list {
+    /* Отступ сета блоков сверху */
+    margin-top: 20px;
+  }
+
+  .project {
+    /* Отступ между блоками */
+    margin-top: 49px;
+  }
+
+  .project__image {
+    width: 100%;
+    height: 250px;
+  }
+
+  .project__title {
+    margin-top: 20px;
+    font-size: 18px;
+    line-height: 24.59px;
+  }
+
+  .project__link {
+    margin-top: 11px;
+    width: 101px;
+    height: 22px;
+    font-size: 16px;
+    line-height: 21.86px;
+  }
 }
-
